@@ -3,7 +3,7 @@ function redondeo(valorProm) {
     return Math.round(valorProm)
 }
 
-let cantidadAlumnos = Number(prompt("Ingrese la cantidad de alumnos que quiere sacar el promedio"));
+let cantidadAlumnos = Number(prompt("Indique a cuantos alumnos quiere sacarle el promedio de sus calificaciones"));
 while (isNaN(cantidadAlumnos) || (cantidadAlumnos <= 0)) {
     cantidadAlumnos = Number(prompt("Por favor ingrese un numero mayor a cero para la cantidad de alumnos"))
 }
